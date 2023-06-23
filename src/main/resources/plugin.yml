@@ -1,0 +1,7 @@
+name: AirDrop
+version: '${project.version}'
+main: main.airdrop.Main
+depend: [WorldGuard]
+commands:
+  airdrop:
+    usage: '/airdrop'

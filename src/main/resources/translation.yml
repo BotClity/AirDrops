@@ -1,0 +1,86 @@
+Drop1:
+  id: 0
+  material: "torch"
+  name: "АирДроп[lvl1]"
+  lore:
+    text:
+      - "Вызывает аирдроп 1 уровня!"
+      - "Купить моржно в магазине сервера"
+  enchantments:
+    count: 1
+    1:
+      name: "knockback"
+      level: 1
+Drop2:
+  id: 1
+  material: "torch"
+  name: "АирДроп[lvl2]"
+  lore:
+    text:
+      - "Вызывает аирдроп 2 уровня!"
+      - "Купить моржно в магазине сервера"
+  enchantments:
+    count: 1
+    1:
+      name: "knockback"
+      level: 1
+Drop3:
+  id: 2
+  material: "torch"
+  name: "АирДроп[lvl3]"
+  lore:
+    text:
+      - "Вызывает аирдроп 3 уровня!"
+      - "Купить моржно в магазине сервера"
+  enchantments:
+    count: 1
+    1:
+      name: "knockback"
+      level: 1
+#Replaceable: {x} , {y} , {y}
+Timer:
+  5min: #Активируется в момент приземления
+    text: "&6Аирдроп откроется через 5 минут (x={x},y={y},z={z})"
+  4min:
+    text: "Аирдроп откроется через 4 минуты (x={x},y={y},z={z})"
+  3min:
+    text: "Аирдроп откроется через 3 минуты (x={x},y={y},z={z})"
+  2min:
+    text: "Аирдроп откроется через 2 минуты (x={x},y={y},z={z})"
+  1min:
+    text: "Аирдроп откроется через 1 минута (x={x},y={y},z={z})"
+  5sec:
+    text: "Аирдроп откроется через 5 секунд (x={x},y={y},z={z})"
+  4sec:
+    text: "Аирдроп откроется через 4 секунды (x={x},y={y},z={z})"
+  3sec:
+    text: "Аирдроп откроется через 3 секунды (x={x},y={y},z={z})"
+  2sec:
+    text: "Аирдроп откроется через 2 секунды (x={x},y={y},z={z})"
+  1sec:
+    text: "Аирдроп откроется через 1 секунда (x={x},y={y},z={z})"
+#Replaceable: {x} , {y} , {y}, {player}
+Status:
+  removed:
+    text: "Аидроп удален (x={x},y={y},z={z})"
+
+  #{time}
+  deleted:
+    text: "Аирдроп будет удалеен через {time}!(x={x},y={y},z={z})"
+
+  clicked:
+    text: "{player} открыл аирдроп"
+  called:
+    text: "Аирдроп был вызван на кординатах (x={x},y={y},z={z})"
+  opened:
+    text: "Аирдроп открыт"
+  occupied:
+    text: "Кто-то другой открыл аирдроп"
+  closed:
+    text: "Аирдроп еще не открылся"
+  rg_problem:
+    text: "Аирдроп нельзя вызывать в регионе!"
+  rg_claimed:
+    text: "Аирдроп залутан {player}"
+  canceled:
+    text: "Аирдроп не был вызван из-за маленького онлайна"

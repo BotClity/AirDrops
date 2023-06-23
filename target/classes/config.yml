@@ -1,0 +1,62 @@
+#Colors: AQUA BLACK BLUE DARK_AQUA DARK_BLUE DARK_GRAY DARK_GRAY DARK_PURPLE DARK_RED GOLD GRAY GREEN LIGHT_PURPLE RED WHITE YELLOW
+#Replace: player amount
+Worlds: ["world"]
+Limit: 10
+Drops1:
+  x: 100 #Радиус по X
+  z: 100 #Радиус по Z
+  count: 1 #Количество предметов рабочих
+  items:
+    0:
+      material: "IRON_INGOT" #Материал предмета. Можно с маленьких букв тоже
+      name: "ultra ingot"
+      lore: [] #Описание предмета
+      enchantment: true #Будет ли предмет выглядеть зачарованным
+      percentage: 50 #Процент выпадения
+      fromAmount: 1 # С какого количества
+      toAmount: 10 # До какого количества
+      command: "give player diamond amount" #Команда которая выполняется после нажатия
+Drops2:
+  x: 100 #Радиус по X
+  z: 100 #Радиус по Z
+  count: 1 #Количество предметов рабочих
+  items:
+    0:
+      material: "IRON_INGOT" #Материал предмета. Можно с маленьких букв тоже
+      name: "ultra ingot" #Название предмета
+      lore: [] #Описание предмета
+      enchantment: true #Будет ли предмет выглядеть зачарованным
+      percentage: 50 #Процент выпадения
+      fromAmount: 1 # С какого количества
+      toAmount: 10 # До какого количества
+      command: "give player diamond amount" #Команда которая выполняется после нажатия
+Drops3:
+  x: 100 #Радиус по X
+  z: 100 #Радиус по Z
+  count: 1 #Количество предметов рабочих
+  items:
+    0:
+      material: "IRON_INGOT" #Материал предмета. Можно с маленьких букв тоже
+      name: "ultra &6ingot" #Название предмета
+      lore: [] #Описание предмета
+      enchantment: true #Будет ли предмет выглядеть зачарованным
+      percentage: 50 #Процент выпадения
+      fromAmount: 1 # С какого количества
+      toAmount: 10 # До какого количества
+      command: "give player diamond amount" #Команда которая выполняется после нажатия
+RandomDrop:
+  x: [-1000, 1000] #Координаты с X до X выпадения
+  y: 200 #Координаты Y выпадения
+  z: [-1000, 1000] #Координаты с Z до Z выпадения
+  times: 6000 #Seconds
+  count: 1 #Количество предметов рабочих
+  items:
+    0:
+      material: "IRON_INGOT" #Материал предмета. Можно с маленьких букв тоже
+      name: "ultra ingot" #Название предмета
+      lore: [] #Описание предмета
+      enchantment: true #Будет ли предмет выглядеть зачарованным
+      percentage: 50 #Процент выпадения
+      fromAmount: 1 # С какого количества
+      toAmount: 10 # До какого количества
+      command: "give player diamond amount" #Команда которая выполняется после нажатия

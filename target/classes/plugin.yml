@@ -1,0 +1,7 @@
+name: AirDrop
+version: '1.0'
+main: main.airdrop.Main
+depend: [WorldGuard]
+commands:
+  airdrop:
+    usage: '/airdrop'
